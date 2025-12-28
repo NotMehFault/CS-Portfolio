@@ -23,7 +23,8 @@ window.addEventListener('scroll', () => {
     
     navButtons.forEach(button => {
         button.classList.remove('active');
-        if (button.textContent.toLowerCase() === current) {
+        const buttonText = button.textContent.toLowerCase();
+        if (buttonText === current) {
             button.classList.add('active');
         }
     });

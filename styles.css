@@ -69,6 +69,11 @@ body {
     transform: translateY(0);
 }
 
+.nav-btn.active {
+    background-color: #1f5f8b;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+}
+
 /* Main Content */
 main {
     margin-top: 80px;
