@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <h1 class="logo">Portfolio</h1>
+            <div class="nav-buttons">
+                <button class="nav-btn" onclick="scrollToSection('about')">About</button>
+                <button class="nav-btn" onclick="scrollToSection('projects')">Projects</button>
+                <button class="nav-btn" onclick="scrollToSection('skills')">Skills</button>
+                <button class="nav-btn" onclick="scrollToSection('contact')">Contact</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-content">
+                    <p>Welcome to my Computer Science portfolio. I'm a passionate developer with a strong foundation in software engineering and problem-solving.</p>
+                    <div class="subsection">
+                        <h3>Background</h3>
+                        <p>Currently pursuing a degree in Computer Science with a focus on software development and algorithms.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Interests</h3>
+                        <p>Passionate about web development, artificial intelligence, and creating innovative solutions to real-world problems.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Goals</h3>
+                        <p>Seeking opportunities to apply my skills in challenging projects and contribute to meaningful technological advancements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-content">
+                    <div class="subsection">
+                        <h3>Web Development</h3>
+                        <p>Built responsive websites and web applications using modern frameworks and technologies.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Software Engineering</h3>
+                        <p>Developed desktop applications and command-line tools for various use cases.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Data Structures & Algorithms</h3>
+                        <p>Implemented efficient algorithms and data structures for solving complex problems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-content">
+                    <div class="subsection">
+                        <h3>Programming Languages</h3>
+                        <p>Python, JavaScript, Java, C++, HTML/CSS</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Technologies & Frameworks</h3>
+                        <p>React, Node.js, Git, SQL, MongoDB</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Tools & Platforms</h3>
+                        <p>VS Code, GitHub, Linux, Docker</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="section-content">
+                    <div class="subsection">
+                        <h3>Get in Touch</h3>
+                        <p>I'm always open to discussing new projects and opportunities.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Email</h3>
+                        <p>your.email@example.com</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Social Media</h3>
+                        <p>GitHub | LinkedIn | Twitter</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
